@@ -5,8 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GITHUB user repos</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    
+
+    <header role="banner">
+        <nav role="navigation">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <h1>GitHub UserRepos Finder 2020</h1>
+    </header>
+
+    <main role="main">
+        <form>
+            <label for="userHandle">GitHub User:</label>
+            <input type="text" name="userHandle" placeholder="Some-handle_2020" required>
+            <button class="submit-button" type="submit">Find REPOS</button>
+        </form>
+
+        <section>
+            <h2>Results:</h2>
+            <ul class="js-results hidden">
+
+            </ul>
+        </section>
+
+    </main>
+
+
+
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+        crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+
 </body>
 </html>

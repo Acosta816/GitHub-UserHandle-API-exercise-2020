@@ -1,0 +1,17 @@
+* {
+    background-color: rgb(92, 6, 0);
+}
+
+.submit-button {
+    background-color: darkgreen;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.js-results {
+    border: 5px white dotted;
+}
